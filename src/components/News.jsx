@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Typography, Row, Col, Avatar, Card } from 'antd';
+import { Typography, Row, Col, Card } from 'antd';
 import moment from 'moment';
 
 import Loader from './Loader';
@@ -7,7 +7,6 @@ import Loader from './Loader';
 import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
 
 const { Text, Title } = Typography;
-const { Option } = Select;
 
 const demoImage = 'https://coinrevolution.com/wp-content/uploads/2024/08/Top-Expert-Predicts-300-Rally-in-2-Weeks-as-Solana.png';
 
